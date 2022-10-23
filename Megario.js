@@ -14,12 +14,12 @@ var dBala = []; //DISPARO DA BALA
 var chao; //PISO
 var espaco; //CEU
 var lua; //LUA
-var vida=10;
-var fim;
+var vida=10;//QUANTIDADE DE VIDAS 
+var fim; //TELA DE GAME OVER
 var fase;
-var tela = 0;
+var tela = 0; 
 var flag = true;
-const NUM_IMAGES = 23;
+const NUM_IMAGES = 23; //VETOR PARA O HEROI 
 const PATH = "img/man";
 var figs = [], i;
 var time = 0;
